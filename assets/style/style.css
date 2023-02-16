@@ -1,0 +1,74 @@
+body {
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  font-size: 18px;
+}
+
+.comparsion-table {
+  text-align: left;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+.comparsion-table th {
+  font-weight: 400;
+}
+
+.comparsion-table .purpul {
+  color: #8981d4;
+}
+
+.comparsion-table .comparsion-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.comparsion-table td {
+  font-size: 14px;
+  align-items: center;
+}
+
+.comparsion-table td:first-child {
+  font-weight: 500;
+  font-size: 18px;
+  min-width: 350px;
+}
+
+.comparsion-table .not-active {
+  color: gray;
+}
+
+.comparsion-table .bold {
+  font-weight: 600;
+}
+
+.comparsion-table .image {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.comparsion-table .approve {
+  background: url("../img/plus.svg") no-repeat;
+  background-size: contain;
+}
+
+.comparsion-table .minus {
+  background: url("../img/minus.svg") no-repeat;
+  background-size: contain;
+}
+
+.comparsion-table .no {
+  background: url("../img/no.svg") no-repeat;
+  background-size: contain;
+}
+
+.comparsion-table .question {
+  width: 15px;
+  height: 15px;
+  background: url("../img/question.svg") no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+  vertical-align: initial;
+}
